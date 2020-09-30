@@ -35,7 +35,7 @@ Database for API :
     
 Project Link Of Heroku :
 
-https://imdb-task--fynd.herokuapp.com/ __
+https://imdb-task--fynd.herokuapp.com/
 
 Admin Credentials:
 **username - chopra**
@@ -78,3 +78,14 @@ Admin Credentials:
     * Elastic Search
     
         For search we can use elastic search, name of the movie we can store in it
+        
+    ** API **
+    
+        * For Admin
+            https://imdb-task--fynd.herokuapp.com/admin/movies
+            https://imdb-task--fynd.herokuapp.com/admin/genres/
+
+        * For Users
+            https://imdb-task--fynd.herokuapp.com/movies/
+            https://imdb-task--fynd.herokuapp.com/genres/
+        

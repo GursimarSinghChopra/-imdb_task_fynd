@@ -5,7 +5,7 @@ from imdb_app import views
 
 router = routers.SimpleRouter()
 router.register(r'admin/movies', views.MovieViewSet)
-router.register(r'admin/genre', views.GenreViewSet)
+router.register(r'admin/genres', views.GenreViewSet)
 router.register(r'movies', views.MovieReadOnly)
 router.register(r'genres', views.GenreReadOnly)
 
