@@ -7,3 +7,4 @@ gunicorn==19.6.0
 dj_database_url==0.5.0
 psycopg2==2.7.5
 django-environ==0.4.5
+whitenoise==5.2.0
