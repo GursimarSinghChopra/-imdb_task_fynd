@@ -1,1 +1,1 @@
-web: gunicorn imdb_task.wsgi --log-file -
+web: python manage.py collectstatic --noinput; gunicorn imdb_task.wsgi --log-file -

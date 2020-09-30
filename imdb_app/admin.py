@@ -1,11 +1,10 @@
 from django.contrib import admin
-
-# Register your models here.
 from imdb_app.models import Movie, Genre
 
 
 class MovieAdmin(admin.ModelAdmin):
     pass
+
 
 class GenreAdmin(admin.ModelAdmin):
     pass
