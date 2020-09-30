@@ -52,7 +52,8 @@ Admin Credentials:
     **Answer**
     
     * Load Balancer
-        we can use services like AWS Elastic Load Balancer or HA Proxy, through which we deploy code on multiple server.
+    
+        We can use services like AWS Elastic Load Balancer or HA Proxy, through which we deploy code on multiple server.
     
     * Database
     
@@ -61,16 +62,7 @@ Admin Credentials:
         Even if there is one web server, sometimes db server may become bottle neck. 
         mysql server supports master-slave and master-master configuration.And we can index multiple columns for fast
         searching and sorting.
-    
-        * In master-slave one server is master where data is written and it is replicated to multiple slave servers. 
-        In this case write is done on master and read from slaves. 
-        This is useful when very few write happens on database but many reads. 
-        typically less than 10-15% of write but depends on the use case.
-    
-        * In master-master is similar to above but all are masters, any data written to any server gets replicated to other servers. 
-        Read and write can be done on any server. This is useful for applications which have high writes.
-        Above is for mysql but similar kind of scalability is supported by other database servers too.
-    
+  
     * Redis Server(caching)
 
         For data shown in homepage, we can store in redis. Like the first 10 movies in the redis server
