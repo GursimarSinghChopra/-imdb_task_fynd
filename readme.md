@@ -31,11 +31,11 @@ Framework for API :
 
 Database for API :
     
-    .SQLlite (for Heroku server, as it doesn't support MySQL)
+    .Postgres (for Heroku server, as it doesn't support MySQL)
     
 Project Link Of Heroku :
 
-https://imdb-task--fynd.herokuapp.com/
+https://imdb-task--fynd.herokuapp.com/admin
 
 Admin Credentials:
 **username - chopra**
